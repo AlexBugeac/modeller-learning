@@ -42,7 +42,7 @@ EVWPNITEKKDPLPDAEDWDGVKGKLQHLER*
 >P1;1fdx
 sequence:1fdx:1:A:54:A:ferredoxin:Peptococcus aerogenes:2.00:-1.00
 AYVINDSC--IACGACKPECPVNIIQGS--IYAIDADSCIDCGSCASVCPVGAPNPED-----------------
--------------------------------*
+-------------------------------*```
 
 
 **Template structure file (`5fd1.pdb`)**
