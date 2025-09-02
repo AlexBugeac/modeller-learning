@@ -42,20 +42,22 @@ EVWPNITEKKDPLPDAEDWDGVKGKLQHLER*
 >P1;1fdx
 sequence:1fdx:1:A:54:A:ferredoxin:Peptococcus aerogenes:2.00:-1.00
 AYVINDSC--IACGACKPECPVNIIQGS--IYAIDADSCIDCGSCASVCPVGAPNPED-----------------
--------------------------------*```
+-------------------------------*
+```
 
 
 **Template structure file (`5fd1.pdb`)**
-HEADER    OXIDOREDUCTASE                          24-JAN-90   5FD1  
+```HEADER    OXIDOREDUCTASE                          24-JAN-90   5FD1  
 TITLE     FERREDOXIN (OXIDOREDUCTASE)  
 EXPDTA    X-RAY DIFFRACTION  
 ATOM      1  N   ALA A   1      11.921  13.207   2.245  1.00 20.00           N  
 ATOM      2  CA  ALA A   1      12.769  12.005   2.511  1.00 20.00           C  
 ATOM      3  C   ALA A   1      12.028  10.708   2.070  1.00 20.00           C  
 ...  
+```
 
 **Python script (`model-default.py`)**
-from modeller import *  
+```from modeller import *  
 from modeller.automodel import *  
 log.verbose()  
 env = Environ()  
@@ -67,5 +69,6 @@ a = AutoModel(env,
 a.starting_model = 1  
 a.ending_model   = 1  
 a.make()  
+```
 
 When this script is executed with the command python model-default.py > model-default.log, MODELLER writes detailed progress messages into model-default.log and produces a PDB file containing the modeled structure of the target sequence. The main outputs are model-default.log, which contains the log of the run, and 1fdx.B99990001.pdb, which contains the 3D model. The filename format is always <sequence>.B9999<model_number>.pdb, and if more than one model is requested by increasing the ending_model parameter, multiple PDB files are created. It is always important to check the log for warnings marked with W> and errors marked with E>.
