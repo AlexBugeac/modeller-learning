@@ -10,5 +10,15 @@ The goal is to turn this into a **practical, annotated guide** to MODELLER for m
 
 ---
 
+## ℹ️ About this Repository
+This repository is **not an original tutorial**.  
+It is my personal journey of going through the official [MODELLER documentation](https://salilab.org/modeller/documentation.html) step by step.  
+
+- The examples and workflows are adapted from the manual.  
+- My contribution is to **organize, annotate, and explain** them in a way that supports learning.  
+- All credit for the original methods, examples, and tools goes to the **Salilab MODELLER team**.  
+
+---
+
 ## 📂 Repository Structure
-    #To be written as I progress
+_To be written as I progress_
